@@ -52,23 +52,23 @@ const featuredPost = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-amber-50">
+    <div className="min-h-screen bg-blue-50">
       {/* Header */}
-      <header className="border-b border-amber-200">
+      <header className="border-b border-blue-200">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-6">
-          <Link href="/" className="text-xl font-bold text-stone-800">
+          <Link href="/" className="text-xl font-bold text-slate-800">
             The Dev Blog
           </Link>
           <nav className="flex items-center gap-6">
             <Link
               href="/"
-              className="text-sm font-medium text-stone-600 hover:text-stone-900"
+              className="text-sm font-medium text-slate-600 hover:text-slate-900"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-sm font-medium text-stone-600 hover:text-stone-900"
+              className="text-sm font-medium text-slate-600 hover:text-slate-900"
             >
               About
             </Link>
@@ -79,47 +79,47 @@ export default function Home() {
       <main className="mx-auto max-w-4xl px-6 py-12">
         {/* Hero / Featured Post */}
         <section className="mb-16">
-          <span className="mb-4 inline-block rounded-full bg-amber-200 px-3 py-1 text-xs font-medium text-amber-900">
+          <span className="mb-4 inline-block rounded-full bg-blue-200 px-3 py-1 text-xs font-medium text-blue-900">
             Featured
           </span>
-          <h1 className="mb-4 text-3xl font-bold leading-tight text-stone-800 sm:text-4xl">
+          <h1 className="mb-4 text-3xl font-bold leading-tight text-slate-800 sm:text-4xl">
             {featuredPost.title}
           </h1>
-          <p className="mb-4 text-lg text-stone-600">
+          <p className="mb-4 text-lg text-slate-600">
             {featuredPost.excerpt}
           </p>
-          <div className="flex items-center gap-4 text-sm text-stone-500">
+          <div className="flex items-center gap-4 text-sm text-slate-500">
             <span>{featuredPost.date}</span>
             <span>·</span>
             <span>{featuredPost.readTime}</span>
             <span>·</span>
-            <span className="text-amber-700">{featuredPost.category}</span>
+            <span className="text-blue-700">{featuredPost.category}</span>
           </div>
         </section>
 
         {/* Recent Posts */}
         <section>
-          <h2 className="mb-8 text-xl font-semibold text-stone-800">
+          <h2 className="mb-8 text-xl font-semibold text-slate-800">
             Recent Posts
           </h2>
           <div className="grid gap-8">
             {posts.map((post) => (
               <article
                 key={post.id}
-                className="group border-b border-amber-200 pb-8 last:border-0"
+                className="group border-b border-blue-200 pb-8 last:border-0"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
-                    <span className="mb-2 inline-block text-xs font-medium text-amber-700">
+                    <span className="mb-2 inline-block text-xs font-medium text-blue-700">
                       {post.category}
                     </span>
-                    <h3 className="mb-2 text-lg font-semibold text-stone-800 group-hover:text-amber-700">
+                    <h3 className="mb-2 text-lg font-semibold text-slate-800 group-hover:text-blue-700">
                       <Link href={`/posts/${post.id}`}>{post.title}</Link>
                     </h3>
-                    <p className="mb-3 text-stone-600">
+                    <p className="mb-3 text-slate-600">
                       {post.excerpt}
                     </p>
-                    <div className="flex items-center gap-3 text-sm text-stone-500">
+                    <div className="flex items-center gap-3 text-sm text-slate-500">
                       <span>{post.date}</span>
                       <span>·</span>
                       <span>{post.readTime}</span>
@@ -133,35 +133,35 @@ export default function Home() {
 
         {/* Load More */}
         <div className="mt-12 text-center">
-          <button className="rounded-full border border-amber-300 bg-amber-100 px-6 py-2 text-sm font-medium text-stone-700 transition-colors hover:border-amber-400 hover:bg-amber-200">
+          <button className="rounded-full border border-blue-300 bg-blue-100 px-6 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-blue-400 hover:bg-blue-200">
             Load more posts
           </button>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-amber-200 bg-amber-100/50">
+      <footer className="border-t border-blue-200 bg-blue-100/50">
         <div className="mx-auto max-w-4xl px-6 py-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-            <p className="text-sm text-stone-500">
+            <p className="text-sm text-slate-500">
               © 2026 The Dev Blog. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="text-sm text-stone-500 hover:text-stone-700"
+                className="text-sm text-slate-500 hover:text-slate-700"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="text-sm text-stone-500 hover:text-stone-700"
+                className="text-sm text-slate-500 hover:text-slate-700"
               >
                 GitHub
               </a>
               <a
                 href="#"
-                className="text-sm text-stone-500 hover:text-stone-700"
+                className="text-sm text-slate-500 hover:text-slate-700"
               >
                 RSS
               </a>
