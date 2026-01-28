@@ -57,12 +57,6 @@ export default function Home() {
             >
               Home
             </Link>
-            <Link
-              href="/about"
-              className="text-sm font-medium text-slate-600 hover:text-slate-900"
-            >
-              About
-            </Link>
           </nav>
         </div>
       </header>
