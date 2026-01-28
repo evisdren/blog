@@ -72,12 +72,6 @@ export default function Home() {
             >
               About
             </Link>
-            <Link
-              href="/archive"
-              className="text-sm font-medium text-stone-600 hover:text-stone-900"
-            >
-              Archive
-            </Link>
           </nav>
         </div>
       </header>
