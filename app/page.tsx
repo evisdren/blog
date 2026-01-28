@@ -50,14 +50,6 @@ export default function Home() {
           <Link href="/" className="text-xl font-bold text-slate-800">
             New Blog!
           </Link>
-          <nav className="flex items-center gap-6">
-            <Link
-              href="/"
-              className="text-sm font-medium text-slate-600 hover:text-slate-900"
-            >
-              Home
-            </Link>
-          </nav>
         </div>
       </header>
 
