@@ -1,6 +1,5 @@
 {
   "strategy": "manual-commit",
   "enabled": true,
-  "telemetry": true,
-  "agent": "claude-code"
+  "telemetry": true
 }

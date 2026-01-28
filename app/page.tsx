@@ -4,7 +4,7 @@ import Link from "next/link";
 const posts = [
   {
     id: 1,
-    title: "Getting Started with Next.js 16",
+    title: "Getting Started with Next.js 18",
     excerpt:
       "Learn how to build modern web applications with the latest version of Next.js and its powerful new features.",
     date: "January 25, 2026",
@@ -28,15 +28,6 @@ const posts = [
     date: "January 15, 2026",
     category: "CSS",
     readTime: "6 min read",
-  },
-  {
-    id: 4,
-    title: "The Future of Web Development",
-    excerpt:
-      "Exploring emerging trends and technologies that will shape the future of web development.",
-    date: "January 10, 2026",
-    category: "Opinion",
-    readTime: "4 min read",
   },
 ];
 
