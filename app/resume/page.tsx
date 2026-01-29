@@ -30,7 +30,7 @@ export default function Resume() {
         {/* Name and Title */}
         <section className="mb-12 text-center">
           <h1 className="mb-2 text-4xl font-bold text-slate-800">
-            Alex Johnson
+            Alex Thompson
           </h1>
           <p className="text-xl text-slate-600">Senior Software Engineer</p>
           <p className="mt-2 text-sm text-slate-500">
@@ -139,6 +139,7 @@ export default function Resume() {
               "GraphQL",
               "REST APIs",
               "Git",
+              "Rust",
             ].map((skill) => (
               <span
                 key={skill}

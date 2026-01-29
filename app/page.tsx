@@ -107,7 +107,7 @@ export default function Home() {
       <header className="border-b border-blue-200">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-6">
           <Link href="/" className="text-xl font-bold text-slate-800">
-            New Blog!
+            Tech Blog!
           </Link>
           <div className="flex items-center gap-6">
             <Link

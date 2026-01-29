@@ -28,7 +28,7 @@ export default function About() {
           </p>
 
           <p>
-            Founded in 2026, our mission is to make complex technical concepts
+            Founded in 2025, our mission is to make complex technical concepts
             accessible to developers of all skill levels. Whether you're just
             starting out or you're a seasoned professional, we have something
             for you.
