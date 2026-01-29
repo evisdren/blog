@@ -41,6 +41,24 @@ const posts = [
     category: "CSS",
     readTime: "6 min read",
   },
+  {
+    id: 4,
+    title: "TypeScript Generics Demystified",
+    excerpt:
+      "Master TypeScript generics with practical examples. Learn how to write flexible, reusable code that maintains type safety.",
+    date: "January 10, 2026",
+    category: "TypeScript",
+    readTime: "7 min read",
+  },
+  {
+    id: 5,
+    title: "Authentication Patterns in Modern Web Apps",
+    excerpt:
+      "Explore different authentication strategies including JWT, sessions, and OAuth. Learn when to use each approach.",
+    date: "January 5, 2026",
+    category: "Security",
+    readTime: "10 min read",
+  },
 ];
 
 const featuredPost = {
@@ -63,6 +81,12 @@ export default function Home() {
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-6">
           <Link href="/" className="text-xl font-bold text-slate-800">
             New Blog!
+          </Link>
+          <Link
+            href="/about"
+            className="text-sm font-medium text-slate-600 hover:text-slate-800"
+          >
+            About
           </Link>
         </div>
       </header>
