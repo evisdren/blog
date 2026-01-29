@@ -1,0 +1,37 @@
+remove the featured badge from the hero blog
+
+---
+
+Add a new utility function to a new file called lib/utils.ts
+
+---
+
+string formatting
+
+---
+
+Add a new helper function to app/page.tsx
+
+---
+
+format dates
+
+---
+
+Modify the myUserFunction in lib/utils.ts to return something different
+
+---
+
+Add a new function to lib/utils.ts that has multiple closing braces
+
+---
+
+add a new file to lib calls helpers with a helper function that does somethign basic (it can be a mock function)
+
+---
+
+update the helpers file with another mock function
+
+---
+
+if there are no more posts, then remove the load more posts button
