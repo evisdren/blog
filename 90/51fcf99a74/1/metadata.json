@@ -1,29 +1,25 @@
 {
   "checkpoint_id": "9051fcf99a74",
-  "session_id": "531cc724-5192-48ea-a827-64ec4f1dced9",
+  "session_id": "1b05063e-48f1-4659-bc92-c48b6e9803c9",
   "strategy": "manual-commit",
-  "created_at": "2026-01-29T00:17:29.566189Z",
+  "created_at": "2026-01-29T00:17:29.538264Z",
   "branch": "main",
-  "checkpoints_count": 2,
+  "checkpoints_count": 1,
   "files_touched": [
     ".line-attribution/state.json",
     "lib/helpers.ts",
     "lib/utils.ts"
   ],
   "agent": "Claude Code",
-  "agents": [
-    "Claude Code"
-  ],
-  "session_count": 2,
+  "session_count": 1,
   "session_ids": [
-    "1b05063e-48f1-4659-bc92-c48b6e9803c9",
-    "531cc724-5192-48ea-a827-64ec4f1dced9"
+    "1b05063e-48f1-4659-bc92-c48b6e9803c9"
   ],
   "token_usage": {
     "input_tokens": 18,
-    "cache_creation_tokens": 3224,
-    "cache_read_tokens": 34440,
-    "output_tokens": 5,
+    "cache_creation_tokens": 3361,
+    "cache_read_tokens": 34568,
+    "output_tokens": 7,
     "api_call_count": 2
   },
   "initial_attribution": {
