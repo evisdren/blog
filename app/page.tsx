@@ -1,5 +1,17 @@
 import Link from "next/link";
 
+/**
+ * Formats a date into a readable string (e.g., "January 25, 2026").
+ */
+function formatDate(date: Date | string): string {
+  const d = typeof date === "string" ? new Date(date) : date;
+  return d.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 // Sample blog posts data
 const posts = [
   {
@@ -41,6 +53,8 @@ const featuredPost = {
   readTime: "12 min read",
 };
 
+const hasMorePosts = false;
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-blue-50">
@@ -56,9 +70,6 @@ export default function Home() {
       <main className="mx-auto max-w-4xl px-6 py-12">
         {/* Hero / Featured Post */}
         <section className="mb-16">
-          <span className="mb-4 inline-block rounded-full bg-blue-200 px-3 py-1 text-xs font-medium text-blue-900">
-            Featured
-          </span>
           <h1 className="mb-4 text-3xl font-bold leading-tight text-slate-800 sm:text-4xl">
             {featuredPost.title}
           </h1>
@@ -109,11 +120,13 @@ export default function Home() {
         </section>
 
         {/* Load More */}
-        <div className="mt-12 text-center">
-          <button className="rounded-full border border-blue-300 bg-blue-100 px-6 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-blue-400 hover:bg-blue-200">
-            Load more posts
-          </button>
-        </div>
+        {hasMorePosts && (
+          <div className="mt-12 text-center">
+            <button className="rounded-full border border-blue-300 bg-blue-100 px-6 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-blue-400 hover:bg-blue-200">
+              Load more posts
+            </button>
+          </div>
+        )}
       </main>
 
       {/* Footer */}
