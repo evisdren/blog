@@ -15,6 +15,15 @@ function formatDate(date: Date | string): string {
 // Sample blog posts data
 const posts = [
   {
+    id: 8,
+    title: "Building APIs with Next.js Route Handlers",
+    excerpt:
+      "Learn how to create powerful REST APIs using Next.js Route Handlers. Covers request handling, validation, and best practices.",
+    date: "January 28, 2026",
+    category: "API",
+    readTime: "7 min read",
+  },
+  {
     id: 1,
     title: "Getting Started with Next.js 18",
     excerpt:
