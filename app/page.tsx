@@ -42,15 +42,6 @@ const posts = [
     readTime: "8 min read",
   },
   {
-    id: 3,
-    title: "Tailwind CSS Tips and Tricks",
-    excerpt:
-      "Discover advanced techniques and best practices for building beautiful UIs with Tailwind CSS.",
-    date: "January 15, 2026",
-    category: "CSS",
-    readTime: "6 min read",
-  },
-  {
     id: 4,
     title: "TypeScript Generics Demystified",
     excerpt:
