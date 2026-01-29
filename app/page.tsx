@@ -100,12 +100,20 @@ export default function Home() {
           <Link href="/" className="text-xl font-bold text-slate-800">
             New Blog!
           </Link>
-          <Link
-            href="/about"
-            className="text-sm font-medium text-slate-600 hover:text-slate-800"
-          >
-            About
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/about"
+              className="text-sm font-medium text-slate-600 hover:text-slate-800"
+            >
+              About
+            </Link>
+            <Link
+              href="/resume"
+              className="text-sm font-medium text-slate-600 hover:text-slate-800"
+            >
+              Resume
+            </Link>
+          </div>
         </div>
       </header>
 
