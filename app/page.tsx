@@ -50,6 +50,24 @@ const posts = [
     category: "TypeScript",
     readTime: "7 min read",
   },
+  {
+    id: 5,
+    title: "Authentication Patterns in Modern Web Apps",
+    excerpt:
+      "Explore different authentication strategies including JWT, sessions, and OAuth. Learn when to use each approach.",
+    date: "January 5, 2026",
+    category: "Security",
+    readTime: "10 min read",
+  },
+  {
+    id: 6,
+    title: "New post!!",
+    excerpt:
+      "Explore different authentication strategies including JWT, sessions, and OAuth. Learn when to use each approach.",
+    date: "January 5, 2026",
+    category: "Security",
+    readTime: "10 min read",
+  },
 ];
 
 const featuredPost = {
