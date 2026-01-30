@@ -15,6 +15,33 @@ function formatDate(date: Date | string): string {
 // Sample blog posts data
 const posts = [
   {
+    id: 11,
+    title: "CSS Container Queries: The Future of Responsive Design",
+    excerpt:
+      "Discover how container queries revolutionize component-based styling. Learn to build truly modular UI components that adapt to their context.",
+    date: "January 29, 2026",
+    category: "CSS",
+    readTime: "6 min read",
+  },
+  {
+    id: 10,
+    title: "Edge Computing with Next.js Middleware",
+    excerpt:
+      "Explore the power of edge functions and middleware in Next.js. Handle authentication, geolocation, and A/B testing at the edge.",
+    date: "January 29, 2026",
+    category: "Performance",
+    readTime: "8 min read",
+  },
+  {
+    id: 9,
+    title: "Testing React Applications with Vitest",
+    excerpt:
+      "A practical guide to testing React components using Vitest. Covers unit tests, integration tests, and mocking strategies for modern apps.",
+    date: "January 28, 2026",
+    category: "Testing",
+    readTime: "9 min read",
+  },
+  {
     id: 8,
     title: "Building APIs with Next.js Route Handlers",
     excerpt:
