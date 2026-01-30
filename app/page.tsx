@@ -86,24 +86,6 @@ const posts = [
     category: "Security",
     readTime: "10 min read",
   },
-  {
-    id: 6,
-    title: "New post!",
-    excerpt:
-      "Explore different authentication strategies including JWT, sessions, and OAuth. Learn when to use each approach.",
-    date: "January 5, 2026",
-    category: "Security",
-    readTime: "10 min read",
-  },
-  {
-    id: 7,
-    title: "State Management in 2026",
-    excerpt:
-      "Compare modern state management solutions including Zustand, Jotai, and the latest React features. Find the right tool for your project.",
-    date: "January 2, 2026",
-    category: "React",
-    readTime: "9 min read",
-  },
 ];
 
 const featuredPost = {
